@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+}
+
+body {
+    position: relative;
+    background-image: url('../image/kazakh\ clothes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+:root {
+    --light: #EAE4DD;
+    --secondary: #E1D7C6;
+    --info: #CDC2A5;
+    --primary: #295F98;
+    --dark: #3d3d3d;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-home__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: var(--light);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-home__button:hover {
+    background-color: var(--info);
+}
+
+.text {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--light);
+}
+
+.text2 {
+    font-size: 1rem; 
+    color: var(--light);
+    text-align: center;
+}
+html {
+    margin: 0;
+    padding: 0;
+}

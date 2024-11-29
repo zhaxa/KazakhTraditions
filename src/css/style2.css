@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+}
+body {
+    background-image: url('../image/kazakh.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+:root {
+    --light: #EAE4DD;
+    --secondary: #E1D7C6;
+    --info: #CDC2A5;
+    --primary: #295F98;
+    --dark: #3d3d3d;
+}
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-home__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: var(--light);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-home__button:hover {
+    background-color: var(--info);
+}
+.text{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.text2{
+    font-size: 1.2rem; 
+    color: var(--dark);
+    text-align: center;
+}
